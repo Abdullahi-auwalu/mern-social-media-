@@ -43,14 +43,17 @@ const UserSchema = new mongoose.Schema(
     disc: {
       type: String,
       max: 50,
+      default: "my discription",
     },
     city: {
       type: String,
       max: 50,
+      default: "",
     },
     from: {
       type: String,
       max: 50,
+      default: "",
     },
     relationship: {
       type: Number,
